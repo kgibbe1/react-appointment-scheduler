@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #1770de;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+
+/* TIMESLOT*/
+.timeSlot {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  border-bottom-width: 0;
+  width: 100%;
+  text-align: left;
+}
+.timeSlot:hover {
+  cursor: pointer;
+}
+.timeSlotInner {
+  padding: 10px;
+  min-height: 40px;
+}
+.selected {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  border-left-color: #721c24;
+  border-left-style: solid;
+}
+.bookingTime {
+  color: #333;
+  border-bottom: 2px dashed #eee;
+}
+.bookingData {
+  color: #666;
+  line-height: 1.8rem;
+  font-size: .8rem;
+}
+
+/*Edit Modal*/
+
+.modal {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+label {
+  margin: 1rem 0 0;
+  display: block;
+}
+button {
+  margin-top: 1rem;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 1rem;
+}
+/* copying bootstrap 4 styling for input */
+input {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+
+/* Modal style */
+.modal {
+  position: absolute;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: #efefef 1px 1px 4px 1px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.modal h2 {
+  margin: 0;
+}
+.btn-remove {
+  margin-left: 1rem;
+  background-color: #721c24;
+}
